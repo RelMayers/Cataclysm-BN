@@ -2479,9 +2479,9 @@ bool Character::i_add_or_drop( item &it, int qty )
     return retval;
 }
 
-std::list<item *> Character::get_dependent_worn_items( const item &it ) const
+std::list<const item *> Character::get_dependent_worn_items( const item &it ) const
 {
-    std::list<item *> dependent;
+    std::list<const item *> dependent;
     // Adds dependent worn items recursively
     const std::function<void( const item &it )> add_dependent = [&]( const item & it ) {
         for( const item &wit : worn ) {
@@ -2494,7 +2494,7 @@ std::list<item *> Character::get_dependent_worn_items( const item &it ) const
             } );
             if( iter == dependent.end() ) { // Not in the list yet
                 add_dependent( wit );
-                dependent.push_back( const_cast<item *>( & wit ) );
+                dependent.push_back( &wit );
             }
         }
     };
@@ -2504,14 +2504,6 @@ std::list<item *> Character::get_dependent_worn_items( const item &it ) const
     }
 
     return dependent;
-}
-
-std::list<const item *> Character::get_dependent_worn_items( const item &it ) const
-{
-    const std::list<item *> nonconst = const_cast<Character &>( *this ).get_dependent_worn_items( it );
-    std::list<const item *> ret;
-    std::copy( nonconst.begin(), nonconst.end(), ret.end() );
-    return ret;
 }
 
 void Character::drop( item_location loc, const tripoint &where )
