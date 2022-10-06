@@ -92,6 +92,7 @@ var structitype =
     [ "seed", "structitype.html#ad55b9f82e65f57e8cfb6ecc4fc0445cb", null ],
     [ "snippet_category", "structitype.html#a0a5d70cf8c883cd69f606eead503f322", null ],
     [ "solar_efficiency", "structitype.html#a677f1de85e246b6f7e91a8ff70f3facf", null ],
+    [ "src", "structitype.html#ac59fb8f044e4a3841db679ecf8e646a7", null ],
     [ "stack_size", "structitype.html#a531f460f3ba31cb3e433f7e585e1d4e5", null ],
     [ "stackable_", "structitype.html#ae2add2e58c239cd10a2ad4551d5c6fae", null ],
     [ "sym", "structitype.html#adc032f577167e749b91124d76f56ddfe", null ],

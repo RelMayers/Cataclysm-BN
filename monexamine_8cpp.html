@@ -165,6 +165,10 @@ Variables</h2></td></tr>
 <tr class="separator:a7c7651a289cc19a34456c213eeb46edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9080aef81b6972066313a98c8be93944"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="type__id_8h.html#acc8305d21e9a186d196c8ff88ba2cf19">efftype_id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="monexamine_8cpp.html#a9080aef81b6972066313a98c8be93944">effect_saddled</a> (&quot;monster_saddled&quot;)</td></tr>
 <tr class="separator:a9080aef81b6972066313a98c8be93944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41489747d02c835175487ed787af59a4"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="type__id_8h.html#acc8305d21e9a186d196c8ff88ba2cf19">efftype_id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="monexamine_8cpp.html#a41489747d02c835175487ed787af59a4">effect_leashed</a> (&quot;leashed&quot;)</td></tr>
+<tr class="separator:a41489747d02c835175487ed787af59a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fa326832c0a774d6a775e605f27788"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="type__id_8h.html#acc8305d21e9a186d196c8ff88ba2cf19">efftype_id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="monexamine_8cpp.html#ad5fa326832c0a774d6a775e605f27788">effect_led_by_leash</a> (&quot;led_by_leash&quot;)</td></tr>
+<tr class="separator:ad5fa326832c0a774d6a775e605f27788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09c667a72022d7e0ee0b851560831e04"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="type__id_8h.html#acc8305d21e9a186d196c8ff88ba2cf19">efftype_id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="monexamine_8cpp.html#a09c667a72022d7e0ee0b851560831e04">effect_tied</a> (&quot;tied&quot;)</td></tr>
 <tr class="separator:a09c667a72022d7e0ee0b851560831e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c5780a50f6dc653232de1aeffc85ab"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="type__id_8h.html#ac2f82f863d4e9e8f267a77a73910ebbf">itype_id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="monexamine_8cpp.html#ac2c5780a50f6dc653232de1aeffc85ab">itype_cash_card</a> (&quot;cash_card&quot;)</td></tr>
@@ -201,27 +205,27 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monexamine_8cpp_source.html#l00312">312</a> of file <a class="el" href="monexamine_8cpp_source.html">monexamine.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>{</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <span class="keyword">auto</span> filter = [z]( <span class="keyword">const</span> <a class="code hl_class" href="classitem.html">item</a> &amp; it ) {</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        <span class="keywordflow">return</span> z.<a class="code hl_variable" href="classmonster.html#aa30f973bf524ba275ada847f6118b048">type</a>-&gt;<a class="code hl_variable" href="structmtype.html#a541f9bf8c2e84856ea34db43f88991b3">bodytype</a> == it.get_pet_armor_bodytype() &amp;&amp;</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>               z.<a class="code hl_function" href="classmonster.html#a304aeb741c4ac28d879d3951dee4cf30">get_volume</a>() &gt;= it.get_pet_armor_min_vol() &amp;&amp;</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>               z.<a class="code hl_function" href="classmonster.html#a304aeb741c4ac28d879d3951dee4cf30">get_volume</a>() &lt;= it.get_pet_armor_max_vol();</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    };</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacegame__menus_1_1inv.html#a9eafc067094abf546e276b125d2fc788">game_menus::inv::titled_filter_menu</a>( filter, <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;Pet armor&quot;</span> ) );</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>}</div>
+<p class="definition">Definition at line <a class="el" href="monexamine_8cpp_source.html#l00349">349</a> of file <a class="el" href="monexamine_8cpp_source.html">monexamine.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>{</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    <span class="keyword">auto</span> filter = [z]( <span class="keyword">const</span> <a class="code hl_class" href="classitem.html">item</a> &amp; it ) {</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>        <span class="keywordflow">return</span> z.<a class="code hl_variable" href="classmonster.html#aa30f973bf524ba275ada847f6118b048">type</a>-&gt;<a class="code hl_variable" href="structmtype.html#a541f9bf8c2e84856ea34db43f88991b3">bodytype</a> == it.get_pet_armor_bodytype() &amp;&amp;</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>               z.<a class="code hl_function" href="classmonster.html#a304aeb741c4ac28d879d3951dee4cf30">get_volume</a>() &gt;= it.get_pet_armor_min_vol() &amp;&amp;</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>               z.<a class="code hl_function" href="classmonster.html#a304aeb741c4ac28d879d3951dee4cf30">get_volume</a>() &lt;= it.get_pet_armor_max_vol();</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    };</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacegame__menus_1_1inv.html#a9eafc067094abf546e276b125d2fc788">game_menus::inv::titled_filter_menu</a>( filter, <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;Pet armor&quot;</span> ) );</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>}</div>
 <div class="ttc" id="aclassitem_html"><div class="ttname"><a href="classitem.html">item</a></div><div class="ttdef"><b>Definition:</b> <a href="item_8h_source.html#l00175">item.h:176</a></div></div>
-<div class="ttc" id="aclassmonster_html_a304aeb741c4ac28d879d3951dee4cf30"><div class="ttname"><a href="classmonster.html#a304aeb741c4ac28d879d3951dee4cf30">monster::get_volume</a></div><div class="ttdeci">units::volume get_volume() const</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l02687">monster.cpp:2687</a></div></div>
-<div class="ttc" id="aclassmonster_html_aa30f973bf524ba275ada847f6118b048"><div class="ttname"><a href="classmonster.html#aa30f973bf524ba275ada847f6118b048">monster::type</a></div><div class="ttdeci">const mtype * type</div><div class="ttdef"><b>Definition:</b> <a href="monster_8h_source.html#l00480">monster.h:480</a></div></div>
-<div class="ttc" id="agame_8cpp_html_abeb98e93502d73818b4a73fabe191bc1"><div class="ttname"><a href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a></div><div class="ttdeci">std::unique_ptr&lt; game &gt; g</div><div class="ttdef"><b>Definition:</b> <a href="game_8cpp_source.html#l00271">game.cpp:271</a></div></div>
+<div class="ttc" id="aclassmonster_html_a304aeb741c4ac28d879d3951dee4cf30"><div class="ttname"><a href="classmonster.html#a304aeb741c4ac28d879d3951dee4cf30">monster::get_volume</a></div><div class="ttdeci">units::volume get_volume() const</div><div class="ttdef"><b>Definition:</b> <a href="monster_8cpp_source.html#l02707">monster.cpp:2707</a></div></div>
+<div class="ttc" id="aclassmonster_html_aa30f973bf524ba275ada847f6118b048"><div class="ttname"><a href="classmonster.html#aa30f973bf524ba275ada847f6118b048">monster::type</a></div><div class="ttdeci">const mtype * type</div><div class="ttdef"><b>Definition:</b> <a href="monster_8h_source.html#l00481">monster.h:481</a></div></div>
+<div class="ttc" id="agame_8cpp_html_abeb98e93502d73818b4a73fabe191bc1"><div class="ttname"><a href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a></div><div class="ttdeci">std::unique_ptr&lt; game &gt; g</div><div class="ttdef"><b>Definition:</b> <a href="game_8cpp_source.html#l00272">game.cpp:272</a></div></div>
 <div class="ttc" id="anamespacegame__menus_1_1inv_html_a9eafc067094abf546e276b125d2fc788"><div class="ttname"><a href="namespacegame__menus_1_1inv.html#a9eafc067094abf546e276b125d2fc788">game_menus::inv::titled_filter_menu</a></div><div class="ttdeci">item_location titled_filter_menu(item_filter filter, avatar &amp;you, const std::string &amp;title, const std::string &amp;none_message=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="game__inventory_8cpp_source.html#l00270">game_inventory.cpp:270</a></div></div>
-<div class="ttc" id="astructmtype_html_a541f9bf8c2e84856ea34db43f88991b3"><div class="ttname"><a href="structmtype.html#a541f9bf8c2e84856ea34db43f88991b3">mtype::bodytype</a></div><div class="ttdeci">bodytype_id bodytype</div><div class="ttdef"><b>Definition:</b> <a href="mtype_8h_source.html#l00257">mtype.h:257</a></div></div>
+<div class="ttc" id="astructmtype_html_a541f9bf8c2e84856ea34db43f88991b3"><div class="ttname"><a href="structmtype.html#a541f9bf8c2e84856ea34db43f88991b3">mtype::bodytype</a></div><div class="ttdeci">bodytype_id bodytype</div><div class="ttdef"><b>Definition:</b> <a href="mtype_8h_source.html#l00260">mtype.h:260</a></div></div>
 <div class="ttc" id="atranslations_8h_html_aa829053017e23ef22d44dccecba63a34"><div class="ttname"><a href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a></div><div class="ttdeci">#define _(msg)</div><div class="ttdef"><b>Definition:</b> <a href="translations_8h_source.html#l00116">translations.h:116</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="mtype_8h_source.html#l00257">mtype::bodytype</a>, <a class="el" href="game_8cpp_source.html#l00271">g</a>, <a class="el" href="monster_8cpp_source.html#l02687">monster::get_volume()</a>, <a class="el" href="game__inventory_8cpp_source.html#l00270">game_menus::inv::titled_filter_menu()</a>, and <a class="el" href="monster_8h_source.html#l00480">monster::type</a>.</p>
+<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="mtype_8h_source.html#l00260">mtype::bodytype</a>, <a class="el" href="game_8cpp_source.html#l00272">g</a>, <a class="el" href="monster_8cpp_source.html#l02707">monster::get_volume()</a>, <a class="el" href="game__inventory_8cpp_source.html#l00270">game_menus::inv::titled_filter_menu()</a>, and <a class="el" href="monster_8h_source.html#l00481">monster::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00672">monexamine::add_armor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00709">monexamine::add_armor()</a>.</p>
 
 </div>
 </div>
@@ -259,18 +263,18 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monexamine_8cpp_source.html#l00392">392</a> of file <a class="el" href="monexamine_8cpp_source.html">monexamine.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>{</div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>    <span class="keyword">const</span> std::string formatted = <a class="code hl_function" href="string__formatter_8h.html#a9b089d0b697443b096063219dab08ef5">string_format</a>( msg, max );</div>
-<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> amount = <a class="code hl_class" href="classstring__input__popup.html">string_input_popup</a>()</div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>                       .<a class="code hl_function" href="classstring__input__popup.html#aeced4fb3877cc8e24da36af12af2e519">title</a>( formatted )</div>
-<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>                       .<a class="code hl_function" href="classstring__input__popup.html#acc88b6636bee68b1ee4f4dffc533d611">width</a>( 20 )</div>
-<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>                       .<a class="code hl_function" href="classstring__input__popup.html#a42554f299ffa809034aa4cb4486e365b">text</a>( <a class="code hl_function" href="calendar_8cpp.html#aeb989652ea2bf7fd03b07a74fd30bd7a">std::to_string</a>( max ) )</div>
-<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>                       .<a class="code hl_function" href="classstring__input__popup.html#add686042aff41369ff1bfa8754223ca0">only_digits</a>( <span class="keyword">true</span> )</div>
-<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>                       .<a class="code hl_function" href="classstring__input__popup.html#ad9511310a3e0d119d5587fbf0f877c07">query_int</a>();</div>
-<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span> </div>
-<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="cata__utility_8h.html#ad22b4a043b6eb4c2c06f87f83b720b15">clamp</a>( amount, 0, max );</div>
-<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>}</div>
+<p class="definition">Definition at line <a class="el" href="monexamine_8cpp_source.html#l00429">429</a> of file <a class="el" href="monexamine_8cpp_source.html">monexamine.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>{</div>
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span>    <span class="keyword">const</span> std::string formatted = <a class="code hl_function" href="string__formatter_8h.html#a9b089d0b697443b096063219dab08ef5">string_format</a>( msg, max );</div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> amount = <a class="code hl_class" href="classstring__input__popup.html">string_input_popup</a>()</div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>                       .<a class="code hl_function" href="classstring__input__popup.html#aeced4fb3877cc8e24da36af12af2e519">title</a>( formatted )</div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>                       .<a class="code hl_function" href="classstring__input__popup.html#acc88b6636bee68b1ee4f4dffc533d611">width</a>( 20 )</div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>                       .<a class="code hl_function" href="classstring__input__popup.html#a42554f299ffa809034aa4cb4486e365b">text</a>( <a class="code hl_function" href="calendar_8cpp.html#aeb989652ea2bf7fd03b07a74fd30bd7a">std::to_string</a>( max ) )</div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>                       .<a class="code hl_function" href="classstring__input__popup.html#add686042aff41369ff1bfa8754223ca0">only_digits</a>( <span class="keyword">true</span> )</div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>                       .<a class="code hl_function" href="classstring__input__popup.html#ad9511310a3e0d119d5587fbf0f877c07">query_int</a>();</div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span> </div>
+<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="cata__utility_8h.html#ad22b4a043b6eb4c2c06f87f83b720b15">clamp</a>( amount, 0, max );</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>}</div>
 <div class="ttc" id="acalendar_8cpp_html_aeb989652ea2bf7fd03b07a74fd30bd7a"><div class="ttname"><a href="calendar_8cpp.html#aeb989652ea2bf7fd03b07a74fd30bd7a">to_string</a></div><div class="ttdeci">std::string to_string(const time_duration &amp;d)</div><div class="ttdoc">Returns a string showing a duration.</div><div class="ttdef"><b>Definition:</b> <a href="calendar_8cpp_source.html#l00327">calendar.cpp:327</a></div></div>
 <div class="ttc" id="acata__utility_8h_html_ad22b4a043b6eb4c2c06f87f83b720b15"><div class="ttname"><a href="cata__utility_8h.html#ad22b4a043b6eb4c2c06f87f83b720b15">clamp</a></div><div class="ttdeci">constexpr T clamp(const T &amp;val, const T &amp;min, const T &amp;max)</div><div class="ttdoc">Clamp first argument so that it is no lower than second and no higher than third.</div><div class="ttdef"><b>Definition:</b> <a href="cata__utility_8h_source.html#l00145">cata_utility.h:145</a></div></div>
 <div class="ttc" id="aclassstring__input__popup_html"><div class="ttname"><a href="classstring__input__popup.html">string_input_popup</a></div><div class="ttdoc">Shows a window querying the user for input.</div><div class="ttdef"><b>Definition:</b> <a href="string__input__popup_8h_source.html#l00047">string_input_popup.h:48</a></div></div>
@@ -283,7 +287,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="cata__utility_8h_source.html#l00145">clamp()</a>, <a class="el" href="string__input__popup_8h_source.html#l00158">string_input_popup::only_digits()</a>, <a class="el" href="string__input__popup_8cpp_source.html#l00281">string_input_popup::query_int()</a>, <a class="el" href="string__formatter_8h_source.html#l00418">string_format()</a>, <a class="el" href="string__input__popup_8cpp_source.html#l00538">string_input_popup::text()</a>, <a class="el" href="string__input__popup_8h_source.html#l00105">string_input_popup::title()</a>, <a class="el" href="calendar_8cpp_source.html#l00327">to_string()</a>, and <a class="el" href="string__input__popup_8h_source.html#l00143">string_input_popup::width()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="iexamine_8cpp_source.html#l00553">anonymous_namespace{iexamine.cpp}::atm_menu::do_deposit_money()</a>, <a class="el" href="iexamine_8cpp_source.html#l00579">anonymous_namespace{iexamine.cpp}::atm_menu::do_withdraw_money()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00405">monexamine::pay_bot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="iexamine_8cpp_source.html#l00555">anonymous_namespace{iexamine.cpp}::atm_menu::do_deposit_money()</a>, <a class="el" href="iexamine_8cpp_source.html#l00581">anonymous_namespace{iexamine.cpp}::atm_menu::do_withdraw_money()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00442">monexamine::pay_bot()</a>.</p>
 
 </div>
 </div>
@@ -310,18 +314,18 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="monexamine_8cpp_source.html#l00323">323</a> of file <a class="el" href="monexamine_8cpp_source.html">monexamine.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>{</div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    <span class="keyword">auto</span> filter = []( <span class="keyword">const</span> <a class="code hl_class" href="classitem.html">item</a> &amp; it ) {</div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>        <span class="keywordflow">return</span> it.has_flag( <span class="stringliteral">&quot;TACK&quot;</span> );</div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>    };</div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacegame__menus_1_1inv.html#a9eafc067094abf546e276b125d2fc788">game_menus::inv::titled_filter_menu</a>( filter, <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;Tack&quot;</span> ) );</div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>}</div>
+<p class="definition">Definition at line <a class="el" href="monexamine_8cpp_source.html#l00360">360</a> of file <a class="el" href="monexamine_8cpp_source.html">monexamine.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>{</div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>    <span class="keyword">auto</span> filter = []( <span class="keyword">const</span> <a class="code hl_class" href="classitem.html">item</a> &amp; it ) {</div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>        <span class="keywordflow">return</span> it.has_flag( <span class="stringliteral">&quot;TACK&quot;</span> );</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>    };</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacegame__menus_1_1inv.html#a9eafc067094abf546e276b125d2fc788">game_menus::inv::titled_filter_menu</a>( filter, <a class="code hl_variable" href="game_8cpp.html#abeb98e93502d73818b4a73fabe191bc1">g</a>-&gt;u, <a class="code hl_define" href="translations_8h.html#aa829053017e23ef22d44dccecba63a34">_</a>( <span class="stringliteral">&quot;Tack&quot;</span> ) );</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="game_8cpp_source.html#l00271">g</a>, and <a class="el" href="game__inventory_8cpp_source.html#l00270">game_menus::inv::titled_filter_menu()</a>.</p>
+<p class="reference">References <a class="el" href="translations_8h_source.html#l00116">_</a>, <a class="el" href="game_8cpp_source.html#l00272">g</a>, and <a class="el" href="game__inventory_8cpp_source.html#l00270">game_menus::inv::titled_filter_menu()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00489">monexamine::attach_or_remove_saddle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00526">monexamine::attach_or_remove_saddle()</a>.</p>
 
 </div>
 </div>
@@ -350,7 +354,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00784">monexamine::milk_source()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00880">monexamine::milk_source()</a>.</p>
 
 </div>
 </div>
@@ -378,7 +382,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00724">monexamine::play_with()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00761">monexamine::play_with()</a>.</p>
 
 </div>
 </div>
@@ -406,7 +410,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00508">Character::can_mount()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00633">monexamine::give_items_to()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00545">Character::can_mount()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00670">monexamine::give_items_to()</a>.</p>
 
 </div>
 </div>
@@ -434,7 +438,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00701">monexamine::remove_harness()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00738">monexamine::remove_harness()</a>.</p>
 
 </div>
 </div>
@@ -462,7 +466,63 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00580">monexamine::attach_bag_to()</a>, <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00605">monexamine::remove_bag_from()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00617">monexamine::attach_bag_to()</a>, <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00642">monexamine::remove_bag_from()</a>.</p>
+
+</div>
+</div>
+<a id="a41489747d02c835175487ed787af59a4" name="a41489747d02c835175487ed787af59a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41489747d02c835175487ed787af59a4">&#9670;&nbsp;</a></span>effect_leashed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="type__id_8h.html#acc8305d21e9a186d196c8ff88ba2cf19">efftype_id</a> effect_leashed(&quot;leashed&quot;) </td>
+          <td>(</td>
+          <td class="paramtype">&quot;leashed&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00782">monexamine::add_leash()</a>, <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, <a class="el" href="monexamine_8cpp_source.html#l00817">monexamine::remove_leash()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00842">monexamine::untie_pet()</a>.</p>
+
+</div>
+</div>
+<a id="ad5fa326832c0a774d6a775e605f27788" name="ad5fa326832c0a774d6a775e605f27788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5fa326832c0a774d6a775e605f27788">&#9670;&nbsp;</a></span>effect_led_by_leash</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="type__id_8h.html#acc8305d21e9a186d196c8ff88ba2cf19">efftype_id</a> effect_led_by_leash(&quot;led_by_leash&quot;) </td>
+          <td>(</td>
+          <td class="paramtype">&quot;led_by_leash&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, <a class="el" href="monexamine_8cpp_source.html#l00817">monexamine::remove_leash()</a>, <a class="el" href="monexamine_8cpp_source.html#l00856">monexamine::start_leading()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00870">monexamine::stop_leading()</a>.</p>
 
 </div>
 </div>
@@ -490,7 +550,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00672">monexamine::add_armor()</a>, <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00707">monexamine::remove_armor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00709">monexamine::add_armor()</a>, <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00744">monexamine::remove_armor()</a>.</p>
 
 </div>
 </div>
@@ -518,7 +578,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00405">monexamine::pay_bot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00442">monexamine::pay_bot()</a>.</p>
 
 </div>
 </div>
@@ -546,7 +606,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00373">monexamine::mech_hack()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00405">monexamine::pay_bot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00410">monexamine::mech_hack()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00442">monexamine::pay_bot()</a>.</p>
 
 </div>
 </div>
@@ -574,7 +634,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00508">Character::can_mount()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00545">Character::can_mount()</a>.</p>
 
 </div>
 </div>
@@ -602,7 +662,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00489">monexamine::attach_or_remove_saddle()</a>, <a class="el" href="monexamine_8cpp_source.html#l00508">Character::can_mount()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00526">monexamine::attach_or_remove_saddle()</a>, <a class="el" href="monexamine_8cpp_source.html#l00545">Character::can_mount()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>.</p>
 
 </div>
 </div>
@@ -630,7 +690,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>.</p>
 
 </div>
 </div>
@@ -658,7 +718,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00784">monexamine::milk_source()</a>, <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>, <a class="el" href="monexamine_8cpp_source.html#l00296">monexamine::shear_animal()</a>, <a class="el" href="monexamine_8cpp_source.html#l00528">monexamine::swap()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00745">monexamine::tie_or_untie()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00880">monexamine::milk_source()</a>, <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, <a class="el" href="monexamine_8cpp_source.html#l00333">monexamine::shear_animal()</a>, <a class="el" href="monexamine_8cpp_source.html#l00856">monexamine::start_leading()</a>, <a class="el" href="monexamine_8cpp_source.html#l00565">monexamine::swap()</a>, <a class="el" href="monexamine_8cpp_source.html#l00832">monexamine::tie_pet()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00842">monexamine::untie_pet()</a>.</p>
 
 </div>
 </div>
@@ -686,7 +746,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00405">monexamine::pay_bot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00442">monexamine::pay_bot()</a>.</p>
 
 </div>
 </div>
@@ -714,7 +774,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00373">monexamine::mech_hack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00410">monexamine::mech_hack()</a>.</p>
 
 </div>
 </div>
@@ -742,7 +802,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00296">monexamine::shear_animal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00333">monexamine::shear_animal()</a>.</p>
 
 </div>
 </div>
@@ -770,7 +830,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00508">Character::can_mount()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00545">Character::can_mount()</a>, and <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>.</p>
 
 </div>
 </div>
@@ -798,7 +858,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00064">monexamine::pet_menu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="monexamine_8cpp_source.html#l00067">monexamine::pet_menu()</a>.</p>
 
 </div>
 </div>
@@ -808,7 +868,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="monexamine_8cpp.html">monexamine.cpp</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:03:50 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:18 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

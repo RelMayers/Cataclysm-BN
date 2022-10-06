@@ -138,6 +138,7 @@ var classcata__tiles =
     [ "do_draw_weather", "classcata__tiles.html#ac752733e6525e1171a177f36ada0e880", null ],
     [ "do_draw_zones", "classcata__tiles.html#a37e079e7f492df36ad2674d16978a395", null ],
     [ "draw_below_override", "classcata__tiles.html#a7db24670319996efc1d31ab7ec407154", null ],
+    [ "draw_points_cache", "classcata__tiles.html#a0268669424f0cc02dc6a29e132dd5549", null ],
     [ "exp_name", "classcata__tiles.html#a2d42de854dd7cd7a3896142175dec6ca", null ],
     [ "exp_pos", "classcata__tiles.html#ac7919610a1bec6068a34b7a5f0a4c6d0", null ],
     [ "exp_rad", "classcata__tiles.html#a11c027c991b875c7bc85a8776acb8ad3", null ],

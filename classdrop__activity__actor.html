@@ -229,9 +229,9 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aclassdrop__activity__actor_html_a2545d2578a79117db1a74eb71ba7dc1a"><div class="ttname"><a href="classdrop__activity__actor.html#a2545d2578a79117db1a74eb71ba7dc1a">drop_activity_actor::items</a></div><div class="ttdeci">std::list&lt; pickup::act_item &gt; items</div><div class="ttdef"><b>Definition:</b> <a href="activity__actor__definitions_8h_source.html#l00272">activity_actor_definitions.h:272</a></div></div>
 <div class="ttc" id="aclassdrop__activity__actor_html_a3d5e0d9292d6bcbf0881d340097a8721"><div class="ttname"><a href="classdrop__activity__actor.html#a3d5e0d9292d6bcbf0881d340097a8721">drop_activity_actor::force_ground</a></div><div class="ttdeci">bool force_ground</div><div class="ttdef"><b>Definition:</b> <a href="activity__actor__definitions_8h_source.html#l00273">activity_actor_definitions.h:273</a></div></div>
 <div class="ttc" id="aclassdrop__activity__actor_html_a4141cc4aba460c7e1b7df310532ff507"><div class="ttname"><a href="classdrop__activity__actor.html#a4141cc4aba460c7e1b7df310532ff507">drop_activity_actor::relpos</a></div><div class="ttdeci">tripoint relpos</div><div class="ttdef"><b>Definition:</b> <a href="activity__actor__definitions_8h_source.html#l00274">activity_actor_definitions.h:274</a></div></div>
-<div class="ttc" id="anamespacepickup_html_aac5b4e29d7ee15d6b16a5a1a434103ea"><div class="ttname"><a href="namespacepickup.html#aac5b4e29d7ee15d6b16a5a1a434103ea">pickup::reorder_for_dropping</a></div><div class="ttdeci">std::list&lt; act_item &gt; reorder_for_dropping(Character &amp;p, const drop_locations &amp;drop)</div><div class="ttdef"><b>Definition:</b> <a href="activity__item__handling_8cpp_source.html#l00457">activity_item_handling.cpp:457</a></div></div>
+<div class="ttc" id="anamespacepickup_html_aac5b4e29d7ee15d6b16a5a1a434103ea"><div class="ttname"><a href="namespacepickup.html#aac5b4e29d7ee15d6b16a5a1a434103ea">pickup::reorder_for_dropping</a></div><div class="ttdeci">std::list&lt; act_item &gt; reorder_for_dropping(Character &amp;p, const drop_locations &amp;drop)</div><div class="ttdef"><b>Definition:</b> <a href="activity__item__handling_8cpp_source.html#l00458">activity_item_handling.cpp:458</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="activity__actor__definitions_8h_source.html#l00272">items</a>, and <a class="el" href="activity__item__handling_8cpp_source.html#l00457">pickup::reorder_for_dropping()</a>.</p>
+<p class="reference">References <a class="el" href="activity__actor__definitions_8h_source.html#l00272">items</a>, and <a class="el" href="activity__item__handling_8cpp_source.html#l00458">pickup::reorder_for_dropping()</a>.</p>
 
 </div>
 </div>
@@ -362,26 +362,26 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classactivity__actor.html#ad414594da4c234257dc1874724d726c9">activity_actor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="activity__item__handling_8cpp_source.html#l00684">684</a> of file <a class="el" href="activity__item__handling_8cpp_source.html">activity_item_handling.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>{</div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> pos = who.<a class="code hl_function" href="classCharacter.html#ad24859164517ed6e392e21df69527199">pos</a>() + <a class="code hl_variable" href="classdrop__activity__actor.html#a4141cc4aba460c7e1b7df310532ff507">relpos</a>;</div>
-<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span> </div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>    <a class="code hl_function" href="activity__item__handling_8cpp.html#a4b1368b8a2c647e79a3c9dea01761eed">put_into_vehicle_or_drop</a>( who, <a class="code hl_enumvalue" href="activity__handlers_8h.html#a3931cba30166834e066ef80c02d84611a38dd6f2bec3ea3b3cde92db954842bdb">item_drop_reason::deliberate</a>,</div>
-<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>                              <a class="code hl_function" href="activity__item__handling_8cpp.html#a1a44be94eebef040ba236c8bf14120c2">obtain_activity_items</a>( who, <a class="code hl_variable" href="classdrop__activity__actor.html#a2545d2578a79117db1a74eb71ba7dc1a">items</a> ),</div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>                              pos, <a class="code hl_variable" href="classdrop__activity__actor.html#a3d5e0d9292d6bcbf0881d340097a8721">force_ground</a> );</div>
-<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span> </div>
-<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classdrop__activity__actor.html#a2545d2578a79117db1a74eb71ba7dc1a">items</a>.empty() ) {</div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>        who.<a class="code hl_function" href="classCharacter.html#a597968eba450c923b56a1c9cac1676dc">cancel_activity</a>();</div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>    }</div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>}</div>
+<p class="definition">Definition at line <a class="el" href="activity__item__handling_8cpp_source.html#l00685">685</a> of file <a class="el" href="activity__item__handling_8cpp_source.html">activity_item_handling.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>{</div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structtripoint.html">tripoint</a> pos = who.<a class="code hl_function" href="classCharacter.html#ad24859164517ed6e392e21df69527199">pos</a>() + <a class="code hl_variable" href="classdrop__activity__actor.html#a4141cc4aba460c7e1b7df310532ff507">relpos</a>;</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span> </div>
+<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>    <a class="code hl_function" href="activity__item__handling_8cpp.html#a4b1368b8a2c647e79a3c9dea01761eed">put_into_vehicle_or_drop</a>( who, <a class="code hl_enumvalue" href="activity__handlers_8h.html#a3931cba30166834e066ef80c02d84611a38dd6f2bec3ea3b3cde92db954842bdb">item_drop_reason::deliberate</a>,</div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>                              <a class="code hl_function" href="activity__item__handling_8cpp.html#a1a44be94eebef040ba236c8bf14120c2">obtain_activity_items</a>( who, <a class="code hl_variable" href="classdrop__activity__actor.html#a2545d2578a79117db1a74eb71ba7dc1a">items</a> ),</div>
+<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>                              pos, <a class="code hl_variable" href="classdrop__activity__actor.html#a3d5e0d9292d6bcbf0881d340097a8721">force_ground</a> );</div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span> </div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>    <span class="keywordflow">if</span>( <a class="code hl_variable" href="classdrop__activity__actor.html#a2545d2578a79117db1a74eb71ba7dc1a">items</a>.empty() ) {</div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>        who.<a class="code hl_function" href="classCharacter.html#a597968eba450c923b56a1c9cac1676dc">cancel_activity</a>();</div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>    }</div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>}</div>
 <div class="ttc" id="aactivity__handlers_8h_html_a3931cba30166834e066ef80c02d84611a38dd6f2bec3ea3b3cde92db954842bdb"><div class="ttname"><a href="activity__handlers_8h.html#a3931cba30166834e066ef80c02d84611a38dd6f2bec3ea3b3cde92db954842bdb">item_drop_reason::deliberate</a></div><div class="ttdeci">@ deliberate</div></div>
-<div class="ttc" id="aactivity__item__handling_8cpp_html_a1a44be94eebef040ba236c8bf14120c2"><div class="ttname"><a href="activity__item__handling_8cpp.html#a1a44be94eebef040ba236c8bf14120c2">obtain_activity_items</a></div><div class="ttdeci">static std::list&lt; item &gt; obtain_activity_items(Character &amp;who, std::list&lt; pickup::act_item &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> <a href="activity__item__handling_8cpp_source.html#l00673">activity_item_handling.cpp:673</a></div></div>
-<div class="ttc" id="aactivity__item__handling_8cpp_html_a4b1368b8a2c647e79a3c9dea01761eed"><div class="ttname"><a href="activity__item__handling_8cpp.html#a4b1368b8a2c647e79a3c9dea01761eed">put_into_vehicle_or_drop</a></div><div class="ttdeci">void put_into_vehicle_or_drop(Character &amp;c, item_drop_reason reason, const std::list&lt; item &gt; &amp;items)</div><div class="ttdef"><b>Definition:</b> <a href="activity__item__handling_8cpp_source.html#l00393">activity_item_handling.cpp:393</a></div></div>
+<div class="ttc" id="aactivity__item__handling_8cpp_html_a1a44be94eebef040ba236c8bf14120c2"><div class="ttname"><a href="activity__item__handling_8cpp.html#a1a44be94eebef040ba236c8bf14120c2">obtain_activity_items</a></div><div class="ttdeci">static std::list&lt; item &gt; obtain_activity_items(Character &amp;who, std::list&lt; pickup::act_item &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> <a href="activity__item__handling_8cpp_source.html#l00674">activity_item_handling.cpp:674</a></div></div>
+<div class="ttc" id="aactivity__item__handling_8cpp_html_a4b1368b8a2c647e79a3c9dea01761eed"><div class="ttname"><a href="activity__item__handling_8cpp.html#a4b1368b8a2c647e79a3c9dea01761eed">put_into_vehicle_or_drop</a></div><div class="ttdeci">void put_into_vehicle_or_drop(Character &amp;c, item_drop_reason reason, const std::list&lt; item &gt; &amp;items)</div><div class="ttdef"><b>Definition:</b> <a href="activity__item__handling_8cpp_source.html#l00394">activity_item_handling.cpp:394</a></div></div>
 <div class="ttc" id="aclassCharacter_html_a597968eba450c923b56a1c9cac1676dc"><div class="ttname"><a href="classCharacter.html#a597968eba450c923b56a1c9cac1676dc">Character::cancel_activity</a></div><div class="ttdeci">void cancel_activity()</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l09232">character.cpp:9232</a></div></div>
 <div class="ttc" id="aclassCharacter_html_ad24859164517ed6e392e21df69527199"><div class="ttname"><a href="classCharacter.html#ad24859164517ed6e392e21df69527199">Character::pos</a></div><div class="ttdeci">const tripoint &amp; pos() const override</div><div class="ttdef"><b>Definition:</b> <a href="character_8cpp_source.html#l00714">character.cpp:714</a></div></div>
 <div class="ttc" id="astructtripoint_html"><div class="ttname"><a href="structtripoint.html">tripoint</a></div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00147">point.h:147</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="character_8cpp_source.html#l09232">Character::cancel_activity()</a>, <a class="el" href="activity__handlers_8h.html#a3931cba30166834e066ef80c02d84611a38dd6f2bec3ea3b3cde92db954842bdb">deliberate</a>, <a class="el" href="activity__actor__definitions_8h_source.html#l00273">force_ground</a>, <a class="el" href="activity__actor__definitions_8h_source.html#l00272">items</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00673">obtain_activity_items()</a>, <a class="el" href="character_8cpp_source.html#l00714">Character::pos()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00393">put_into_vehicle_or_drop()</a>, and <a class="el" href="activity__actor__definitions_8h_source.html#l00274">relpos</a>.</p>
+<p class="reference">References <a class="el" href="character_8cpp_source.html#l09232">Character::cancel_activity()</a>, <a class="el" href="activity__handlers_8h.html#a3931cba30166834e066ef80c02d84611a38dd6f2bec3ea3b3cde92db954842bdb">deliberate</a>, <a class="el" href="activity__actor__definitions_8h_source.html#l00273">force_ground</a>, <a class="el" href="activity__actor__definitions_8h_source.html#l00272">items</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00674">obtain_activity_items()</a>, <a class="el" href="character_8cpp_source.html#l00714">Character::pos()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00394">put_into_vehicle_or_drop()</a>, and <a class="el" href="activity__actor__definitions_8h_source.html#l00274">relpos</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="activity__actor__definitions_8h_source.html#l00273">273</a> of file <a class="el" href="activity__actor__definitions_8h_source.html">activity_actor_definitions.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="activity__actor_8cpp_source.html#l00712">deserialize()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00684">do_turn()</a>, and <a class="el" href="activity__actor_8cpp_source.html#l00701">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="activity__actor_8cpp_source.html#l00712">deserialize()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00685">do_turn()</a>, and <a class="el" href="activity__actor_8cpp_source.html#l00701">serialize()</a>.</p>
 
 </div>
 </div>
@@ -609,7 +609,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="activity__actor__definitions_8h_source.html#l00272">272</a> of file <a class="el" href="activity__actor__definitions_8h_source.html">activity_actor_definitions.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="activity__actor_8cpp_source.html#l00712">deserialize()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00684">do_turn()</a>, <a class="el" href="activity__actor_8cpp_source.html#l00687">drop_activity_actor()</a>, and <a class="el" href="activity__actor_8cpp_source.html#l00701">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="activity__actor_8cpp_source.html#l00712">deserialize()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00685">do_turn()</a>, <a class="el" href="activity__actor_8cpp_source.html#l00687">drop_activity_actor()</a>, and <a class="el" href="activity__actor_8cpp_source.html#l00701">serialize()</a>.</p>
 
 </div>
 </div>
@@ -635,7 +635,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="activity__actor__definitions_8h_source.html#l00274">274</a> of file <a class="el" href="activity__actor__definitions_8h_source.html">activity_actor_definitions.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="activity__actor_8cpp_source.html#l00712">deserialize()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00684">do_turn()</a>, and <a class="el" href="activity__actor_8cpp_source.html#l00701">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="activity__actor_8cpp_source.html#l00712">deserialize()</a>, <a class="el" href="activity__item__handling_8cpp_source.html#l00685">do_turn()</a>, and <a class="el" href="activity__actor_8cpp_source.html#l00701">serialize()</a>.</p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classdrop__activity__actor.html">drop_activity_actor</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:04:00 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:25 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

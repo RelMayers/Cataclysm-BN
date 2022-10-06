@@ -10,6 +10,7 @@ var structter__t =
     [ "id", "structter__t.html#a876ecdb9de153e3d864ee221ed63bd45", null ],
     [ "open", "structter__t.html#a67c4e64d08591dbb404ef18e051b1f12", null ],
     [ "roof", "structter__t.html#a9a74706de0ca397d012761de59d3d13b", null ],
+    [ "src", "structter__t.html#afcddbf300ba499f1a644770e9b6d9c91", null ],
     [ "transforms_into", "structter__t.html#abf2095c0322ddb97207a6bf1fb72e8e6", null ],
     [ "trap", "structter__t.html#ac732273f5e5c2f3298182003c032f871", null ],
     [ "trap_id_str", "structter__t.html#a35b6167b2ab7bcdb60d993447dc235b9", null ]

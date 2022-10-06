@@ -8,6 +8,8 @@ var monexamine_8cpp =
     [ "effect_ai_waiting", "monexamine_8cpp.html#a0100ef5def86123b2e4744ec6ed2d00d", null ],
     [ "effect_harnessed", "monexamine_8cpp.html#a7697771dc47ecaeff36785ff20c9aa33", null ],
     [ "effect_has_bag", "monexamine_8cpp.html#a1d79314c1b7ffad5a2ff37a9fcad59b8", null ],
+    [ "effect_leashed", "monexamine_8cpp.html#a41489747d02c835175487ed787af59a4", null ],
+    [ "effect_led_by_leash", "monexamine_8cpp.html#ad5fa326832c0a774d6a775e605f27788", null ],
     [ "effect_monster_armor", "monexamine_8cpp.html#a39eb4b84c51b6934941230cd1979b7d0", null ],
     [ "effect_paid", "monexamine_8cpp.html#aba65d2f107cd13ba885bc181e6d42b92", null ],
     [ "effect_pet", "monexamine_8cpp.html#a02a4844a7fb68c13a34dc40b0a9e94d8", null ],

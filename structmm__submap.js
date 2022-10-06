@@ -1,10 +1,8 @@
 var structmm__submap =
 [
     [ "mm_submap", "structmm__submap.html#a9ae0d6bc4e5be1f906e8df5ae209eec8", null ],
-    [ "mm_submap", "structmm__submap.html#a3bfd57d7660ee151a5cf851111c2b416", null ],
     [ "deserialize", "structmm__submap.html#a46eda26506d2891b722411adbfd653d4", null ],
     [ "is_empty", "structmm__submap.html#a41dacbac68d38679c338579376079698", null ],
-    [ "is_valid", "structmm__submap.html#aacbe698385cdb4a7ccd6854edc4ff8e0", null ],
     [ "serialize", "structmm__submap.html#ab83bbb459c45111fe1f5439d448b3aad", null ],
     [ "set_symbol", "structmm__submap.html#a2892de7185f3716d5e34c04a715e7af5", null ],
     [ "set_tile", "structmm__submap.html#a2183aa151f21c3f91af5e07bac7239c9", null ],

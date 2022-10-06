@@ -110,7 +110,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Helper class for converting global ms coord into global sm coord + ms coord within the submap. </p>
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00122">122</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00116">116</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9f247f668ca8a05a5e3e1760072b3414" name="a9f247f668ca8a05a5e3e1760072b3414"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f247f668ca8a05a5e3e1760072b3414">&#9670;&nbsp;</a></span>coord_pair()</h2>
@@ -128,21 +128,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8cpp_source.html#l00064">64</a> of file <a class="el" href="map__memory_8cpp_source.html">map_memory.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                                                    : <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">loc</a>( p.<a class="code hl_function" href="structtripoint.html#accc0725c936dbebb2486f969f39e2e5f">xy</a>() )</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>{</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#afbaca5d68eda0690dc903960d50ca0ac">sm</a> = <a class="code hl_struct" href="structtripoint.html">tripoint</a>( <a class="code hl_function" href="coordinate__conversions_8cpp.html#a841adeceebc3fbb8f2a4d3b63dd00632">ms_to_sm_remain</a>( <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">loc</a>.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>, <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">loc</a>.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> ), p.<a class="code hl_variable" href="structtripoint.html#ac944c0e329b5eba2602f7a52f66bbbb9">z</a> );</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
+<p class="definition">Definition at line <a class="el" href="map__memory_8cpp_source.html#l00063">63</a> of file <a class="el" href="map__memory_8cpp_source.html">map_memory.cpp</a>.</p>
+<div class="fragment"><div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                                                    : <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">loc</a>( p.<a class="code hl_function" href="structtripoint.html#accc0725c936dbebb2486f969f39e2e5f">xy</a>() )</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>{</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#afbaca5d68eda0690dc903960d50ca0ac">sm</a> = <a class="code hl_struct" href="structtripoint.html">tripoint</a>( <a class="code hl_function" href="coordinate__conversions_8cpp.html#a841adeceebc3fbb8f2a4d3b63dd00632">ms_to_sm_remain</a>( <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">loc</a>.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>, <a class="code hl_variable" href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">loc</a>.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> ), p.<a class="code hl_variable" href="structtripoint.html#ac944c0e329b5eba2602f7a52f66bbbb9">z</a> );</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
 <div class="ttc" id="acoordinate__conversions_8cpp_html_a841adeceebc3fbb8f2a4d3b63dd00632"><div class="ttname"><a href="coordinate__conversions_8cpp.html#a841adeceebc3fbb8f2a4d3b63dd00632">ms_to_sm_remain</a></div><div class="ttdeci">point ms_to_sm_remain(int &amp;x, int &amp;y)</div><div class="ttdef"><b>Definition:</b> <a href="coordinate__conversions_8cpp_source.html#l00141">coordinate_conversions.cpp:141</a></div></div>
-<div class="ttc" id="astructmap__memory_1_1coord__pair_html_ad136a4ccba391eac3fbe075ad346f7cb"><div class="ttname"><a href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">map_memory::coord_pair::loc</a></div><div class="ttdeci">point loc</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00124">map_memory.h:124</a></div></div>
-<div class="ttc" id="astructmap__memory_1_1coord__pair_html_afbaca5d68eda0690dc903960d50ca0ac"><div class="ttname"><a href="structmap__memory_1_1coord__pair.html#afbaca5d68eda0690dc903960d50ca0ac">map_memory::coord_pair::sm</a></div><div class="ttdeci">tripoint sm</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00123">map_memory.h:123</a></div></div>
+<div class="ttc" id="astructmap__memory_1_1coord__pair_html_ad136a4ccba391eac3fbe075ad346f7cb"><div class="ttname"><a href="structmap__memory_1_1coord__pair.html#ad136a4ccba391eac3fbe075ad346f7cb">map_memory::coord_pair::loc</a></div><div class="ttdeci">point loc</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00118">map_memory.h:118</a></div></div>
+<div class="ttc" id="astructmap__memory_1_1coord__pair_html_afbaca5d68eda0690dc903960d50ca0ac"><div class="ttname"><a href="structmap__memory_1_1coord__pair.html#afbaca5d68eda0690dc903960d50ca0ac">map_memory::coord_pair::sm</a></div><div class="ttdeci">tripoint sm</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00117">map_memory.h:117</a></div></div>
 <div class="ttc" id="astructpoint_html_a9a82ca9504acabb1e30569f89c805471"><div class="ttname"><a href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00039">point.h:39</a></div></div>
 <div class="ttc" id="astructpoint_html_ad679b07fb69d55f5ad454d0f1f2891d5"><div class="ttname"><a href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">point::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00038">point.h:38</a></div></div>
 <div class="ttc" id="astructtripoint_html"><div class="ttname"><a href="structtripoint.html">tripoint</a></div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00147">point.h:147</a></div></div>
 <div class="ttc" id="astructtripoint_html_ac944c0e329b5eba2602f7a52f66bbbb9"><div class="ttname"><a href="structtripoint.html#ac944c0e329b5eba2602f7a52f66bbbb9">tripoint::z</a></div><div class="ttdeci">int z</div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00152">point.h:152</a></div></div>
 <div class="ttc" id="astructtripoint_html_accc0725c936dbebb2486f969f39e2e5f"><div class="ttname"><a href="structtripoint.html#accc0725c936dbebb2486f969f39e2e5f">tripoint::xy</a></div><div class="ttdeci">constexpr point xy() const</div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00220">point.h:220</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00124">loc</a>, <a class="el" href="coordinate__conversions_8cpp_source.html#l00141">ms_to_sm_remain()</a>, <a class="el" href="map__memory_8h_source.html#l00123">sm</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, <a class="el" href="point_8h_source.html#l00039">point::y</a>, and <a class="el" href="point_8h_source.html#l00152">tripoint::z</a>.</p>
+<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00118">loc</a>, <a class="el" href="coordinate__conversions_8cpp_source.html#l00141">ms_to_sm_remain()</a>, <a class="el" href="map__memory_8h_source.html#l00117">sm</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, <a class="el" href="point_8h_source.html#l00039">point::y</a>, and <a class="el" href="point_8h_source.html#l00152">tripoint::z</a>.</p>
 
 </div>
 </div>
@@ -159,9 +159,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00124">124</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00118">118</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00109">map_memory::clear_memorized_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00064">coord_pair()</a>, <a class="el" href="map__memory_8cpp_source.html#l00092">map_memory::get_symbol()</a>, <a class="el" href="map__memory_8cpp_source.html#l00074">map_memory::get_tile()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8cpp_source.html#l00099">map_memory::memorize_symbol()</a>, and <a class="el" href="map__memory_8cpp_source.html#l00081">map_memory::memorize_tile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00117">map_memory::clear_memorized_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00063">coord_pair()</a>, <a class="el" href="map__memory_8cpp_source.html#l00103">map_memory::get_symbol()</a>, <a class="el" href="map__memory_8cpp_source.html#l00073">map_memory::get_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00080">map_memory::has_memory_for_autodrive()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8cpp_source.html#l00110">map_memory::memorize_symbol()</a>, and <a class="el" href="map__memory_8cpp_source.html#l00095">map_memory::memorize_tile()</a>.</p>
 
 </div>
 </div>
@@ -177,9 +177,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00123">123</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00117">117</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00109">map_memory::clear_memorized_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00064">coord_pair()</a>, <a class="el" href="map__memory_8cpp_source.html#l00092">map_memory::get_symbol()</a>, <a class="el" href="map__memory_8cpp_source.html#l00074">map_memory::get_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00315">map_memory::load()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8cpp_source.html#l00099">map_memory::memorize_symbol()</a>, <a class="el" href="map__memory_8cpp_source.html#l00081">map_memory::memorize_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00120">map_memory::prepare_region()</a>, and <a class="el" href="map__memory_8cpp_source.html#l00348">map_memory::save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00117">map_memory::clear_memorized_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00063">coord_pair()</a>, <a class="el" href="map__memory_8cpp_source.html#l00103">map_memory::get_symbol()</a>, <a class="el" href="map__memory_8cpp_source.html#l00073">map_memory::get_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00080">map_memory::has_memory_for_autodrive()</a>, <a class="el" href="map__memory_8cpp_source.html#l00300">map_memory::load()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8cpp_source.html#l00110">map_memory::memorize_symbol()</a>, <a class="el" href="map__memory_8cpp_source.html#l00095">map_memory::memorize_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00125">map_memory::prepare_region()</a>, and <a class="el" href="map__memory_8cpp_source.html#l00333">map_memory::save()</a>.</p>
 
 </div>
 </div>
@@ -193,7 +193,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classmap__memory.html">map_memory</a></li><li class="navelem"><a class="el" href="structmap__memory_1_1coord__pair.html">coord_pair</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:04:12 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:33 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

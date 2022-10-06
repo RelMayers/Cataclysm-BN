@@ -103,6 +103,7 @@ var structmtype =
     [ "species", "structmtype.html#ad2d6c0780216ad8a2999bc4e7ec7822c", null ],
     [ "species_ptrs", "structmtype.html#a9c1acfd2ff5731838be7c01a65994532", null ],
     [ "speed", "structmtype.html#addfa6852e581c8cebbd1bbf9c4ebbd9a", null ],
+    [ "src", "structmtype.html#a2d1d188238745cf6ac334c69be8cd931", null ],
     [ "starting_ammo", "structmtype.html#a9a7a3165f2cd86b6e9b68c748ed7f4c0", null ],
     [ "sym", "structmtype.html#a38400904b6ae1207054cca44318d0426", null ],
     [ "upgrade_group", "structmtype.html#aab5a7adaab8e548c3cb6360a985171e2", null ],

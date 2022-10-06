@@ -6,7 +6,5 @@ var map__memory_8cpp =
     [ "find_legacy_mm_file", "map__memory_8cpp.html#a20189dab0c5b04d6854de44e0353c4f7", null ],
     [ "find_mm_dir", "map__memory_8cpp.html#a546731c99a3d698acd08de5fc7cfe83b", null ],
     [ "find_region_path", "map__memory_8cpp.html#a3fad2b73511f67ec51bb2c52047a517b", null ],
-    [ "temp_remove_open_air", "map__memory_8cpp.html#a5d67c0f1306cdbce51064013ad55fd67", null ],
-    [ "invalid_mz_submap", "map__memory_8cpp.html#ad88d335d1fbf7feed49809c1bebea91e", null ],
-    [ "null_mz_submap", "map__memory_8cpp.html#a03ccf2ecd2a52460a2ade2bfff4ff362", null ]
+    [ "temp_remove_open_air", "map__memory_8cpp.html#a5d67c0f1306cdbce51064013ad55fd67", null ]
 ];

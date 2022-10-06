@@ -30,6 +30,7 @@ var classavatar =
     [ "get_str_base", "classavatar.html#a9eae7e6950829ede8ddb9dea08e9a96e", null ],
     [ "grab", "classavatar.html#ae8ce7a37a82a161735e383882ee7b3c0", null ],
     [ "has_identified", "classavatar.html#a6a1fb5db7eeb5cd2c973318ed9546f7c", null ],
+    [ "has_memorized_tile_for_autodrive", "classavatar.html#a79d2431ee4e9f9f3e5b1c00af24cf2f3", null ],
     [ "invoke_item", "classavatar.html#a1570ed8af469f6fdf0f76ec97f393de0", null ],
     [ "invoke_item", "classavatar.html#a56d74b6f3a5a47f4011ddaeb1fa3bf4e", null ],
     [ "invoke_item", "classavatar.html#a577d4d0ae3927ed977c0881988debbf1", null ],

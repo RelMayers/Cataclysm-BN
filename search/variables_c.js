@@ -18,7 +18,7 @@ var searchData=
   ['last_5fchanged_15',['last_changed',['../classselection__column.html#a3e8ef5ef54d888ffa64cc8d3d13941cc',1,'selection_column']]],
   ['last_5fcharacter_5fname_16',['last_character_name',['../classworldfactory.html#aeb7aef2001793a764177662e719f61a8',1,'worldfactory']]],
   ['last_5fclimate_5fcontrol_5fret_17',['last_climate_control_ret',['../classCharacter.html#a01f7c1192555be1ab5da42eac485989c',1,'Character']]],
-  ['last_5fconstruction_18',['last_construction',['../classuistatedata.html#a77f55cac296e2176b64882ff76f99b8a',1,'uistatedata']]],
+  ['last_5fconstruction_18',['last_construction',['../classuistatedata.html#ace4558fb04b183c6517693f0101dc732',1,'uistatedata']]],
   ['last_5fcraft_19',['last_craft',['../classplayer.html#a771107232106a2afa16d80907365ef1f',1,'player']]],
   ['last_5fd_20',['last_d',['../classtileray.html#af60500b9cf5b85453681b88a22ad3751',1,'tileray']]],
   ['last_5fdrop_21',['last_drop',['../classdrop__token__provider.html#a99c5b83174eb33b26265862355ce50ad',1,'drop_token_provider']]],

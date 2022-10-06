@@ -25,7 +25,7 @@ var classuistatedata =
     [ "hidden_recipes", "classuistatedata.html#a8beabc9b7efada6b41c81464c2935dd9", null ],
     [ "iexamine_atm_selected", "classuistatedata.html#aad2650c0c81c9c9526387a86bf586ecc", null ],
     [ "input_history", "classuistatedata.html#a2f76afe9d13de210eb9265748cc5a32b", null ],
-    [ "last_construction", "classuistatedata.html#a77f55cac296e2176b64882ff76f99b8a", null ],
+    [ "last_construction", "classuistatedata.html#ace4558fb04b183c6517693f0101dc732", null ],
     [ "lastreload", "classuistatedata.html#a8b8f01f78f680b54f71cd02745682440", null ],
     [ "list_item_downvote", "classuistatedata.html#aebca1a70dbc4100098b56ec55213940e", null ],
     [ "list_item_downvote_active", "classuistatedata.html#a893ad540bb3b8a5b94d82bf86af26679", null ],

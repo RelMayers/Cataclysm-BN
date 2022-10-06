@@ -18,9 +18,12 @@ var searchData=
   ['clothing_5fmods_15',['clothing_mods',['../namespaceclothing__mods.html',1,'']]],
   ['construct_16',['construct',['../namespaceconstruct.html',1,'']]],
   ['construction_5fcategories_17',['construction_categories',['../namespaceconstruction__categories.html',1,'']]],
-  ['coords_18',['coords',['../namespacecoords.html',1,'']]],
-  ['crafting_19',['crafting',['../namespacecrafting.html',1,'']]],
-  ['event_5fdetail_20',['event_detail',['../namespacecata_1_1event__detail.html',1,'cata']]],
-  ['hash64_5fdetail_21',['hash64_detail',['../namespacecata_1_1hash64__detail.html',1,'cata']]],
-  ['tuple_5fhash_5fdetail_22',['tuple_hash_detail',['../namespacecata_1_1tuple__hash__detail.html',1,'cata']]]
+  ['construction_5fgroups_18',['construction_groups',['../namespaceconstruction__groups.html',1,'']]],
+  ['construction_5fsequences_19',['construction_sequences',['../namespaceconstruction__sequences.html',1,'']]],
+  ['constructions_20',['constructions',['../namespaceconstructions.html',1,'']]],
+  ['coords_21',['coords',['../namespacecoords.html',1,'']]],
+  ['crafting_22',['crafting',['../namespacecrafting.html',1,'']]],
+  ['event_5fdetail_23',['event_detail',['../namespacecata_1_1event__detail.html',1,'cata']]],
+  ['hash64_5fdetail_24',['hash64_detail',['../namespacecata_1_1hash64__detail.html',1,'cata']]],
+  ['tuple_5fhash_5fdetail_25',['tuple_hash_detail',['../namespacecata_1_1tuple__hash__detail.html',1,'cata']]]
 ];

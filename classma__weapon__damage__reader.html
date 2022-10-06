@@ -123,6 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#a757f25520108f740858c0937b609d5c6">operator()</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;member_name, C &amp;member, bool) const</td></tr>
 <tr class="memdesc:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements the reader interface, handles a simple data member.  <a href="classgeneric__typed__reader.html#a757f25520108f740858c0937b609d5c6">More...</a><br /></td></tr>
 <tr class="separator:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af67607ae19c511edb56c5d3f17bb9dab inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#af67607ae19c511edb56c5d3f17bb9dab">do_relative</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;) const</td></tr>
+<tr class="separator:af67607ae19c511edb56c5d3f17bb9dab inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cfffc685b127008ffa97f03c10489c inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#ad5cfffc685b127008ffa97f03c10489c">do_relative</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;member) const</td></tr>
+<tr class="separator:ad5cfffc685b127008ffa97f03c10489c inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b83f8ea9e2cc8bbccf5066b0b08aca inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#ab4b83f8ea9e2cc8bbccf5066b0b08aca">read_normal</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;member) const</td></tr>
+<tr class="separator:ab4b83f8ea9e2cc8bbccf5066b0b08aca inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -190,7 +196,7 @@ template&lt;typename C &gt; </div>
 <div class="ttc" id="adamage_8h_html_ae63a2cf8429f9edf77b547d34ffe4e7a"><div class="ttname"><a href="damage_8h.html#ae63a2cf8429f9edf77b547d34ffe4e7a">damage_type</a></div><div class="ttdeci">damage_type</div><div class="ttdef"><b>Definition:</b> <a href="damage_8h_source.html#l00020">damage.h:20</a></div></div>
 <div class="ttc" id="aenums_8h_html_ac7c2392f800a8be2feb093ef5fe48d40af3725cafa78eb43cc647b405bb6ecfab"><div class="ttname"><a href="enums_8h.html#ac7c2392f800a8be2feb093ef5fe48d40af3725cafa78eb43cc647b405bb6ecfab">type</a></div><div class="ttdeci">@ type</div><div class="ttdef"><b>Definition:</b> <a href="enums_8h_source.html#l00075">enums.h:75</a></div></div>
 <div class="ttc" id="anamespacebase__camps_html_a04fa69b1c0952a34dc4a7d26b3f9f786"><div class="ttname"><a href="namespacebase__camps.html#a04fa69b1c0952a34dc4a7d26b3f9f786">base_camps::id</a></div><div class="ttdeci">const std::string id</div><div class="ttdef"><b>Definition:</b> <a href="basecamp_8h_source.html#l00087">basecamp.h:87</a></div></div>
-<div class="ttc" id="astructreader__detail_1_1handler_html"><div class="ttname"><a href="structreader__detail_1_1handler.html">reader_detail::handler</a></div><div class="ttdef"><b>Definition:</b> <a href="generic__readers_8h_source.html#l00013">generic_readers.h:13</a></div></div>
+<div class="ttc" id="astructreader__detail_1_1handler_html"><div class="ttname"><a href="structreader__detail_1_1handler.html">reader_detail::handler</a></div><div class="ttdef"><b>Definition:</b> <a href="generic__readers_8h_source.html#l00039">generic_readers.h:39</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="damage_8cpp_source.html#l00245">get_dt_map()</a>, <a class="el" href="json_8cpp_source.html#l01364">JsonIn::get_object()</a>, <a class="el" href="json_8cpp_source.html#l00314">JsonObject::get_string()</a>, <a class="el" href="basecamp_8h_source.html#l00087">base_camps::id</a>, <a class="el" href="json_8cpp_source.html#l00233">JsonObject::throw_error()</a>, and <a class="el" href="enums_8h_source.html#l00075">type</a>.</p>
 
@@ -263,7 +269,7 @@ template&lt;typename C &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classma__weapon__damage__reader.html">ma_weapon_damage_reader</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:04:10 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:32 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

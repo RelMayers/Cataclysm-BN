@@ -122,6 +122,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#a757f25520108f740858c0937b609d5c6">operator()</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;member_name, C &amp;member, bool) const</td></tr>
 <tr class="memdesc:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements the reader interface, handles a simple data member.  <a href="classgeneric__typed__reader.html#a757f25520108f740858c0937b609d5c6">More...</a><br /></td></tr>
 <tr class="separator:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af67607ae19c511edb56c5d3f17bb9dab inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#af67607ae19c511edb56c5d3f17bb9dab">do_relative</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;) const</td></tr>
+<tr class="separator:af67607ae19c511edb56c5d3f17bb9dab inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cfffc685b127008ffa97f03c10489c inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#ad5cfffc685b127008ffa97f03c10489c">do_relative</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;member) const</td></tr>
+<tr class="separator:ad5cfffc685b127008ffa97f03c10489c inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b83f8ea9e2cc8bbccf5066b0b08aca inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#ab4b83f8ea9e2cc8bbccf5066b0b08aca">read_normal</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;member) const</td></tr>
+<tr class="separator:ab4b83f8ea9e2cc8bbccf5066b0b08aca inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -176,7 +182,7 @@ template&lt;typename C &gt; </div>
 <div class="ttc" id="aclassaddiction_html_a1f821f3d8aeefae18cdab457db95a1f2"><div class="ttname"><a href="classaddiction.html#a1f821f3d8aeefae18cdab457db95a1f2">addiction::type</a></div><div class="ttdeci">add_type type</div><div class="ttdef"><b>Definition:</b> <a href="pldata_8h_source.html#l00050">pldata.h:50</a></div></div>
 <div class="ttc" id="aenums_8h_html_ac7c2392f800a8be2feb093ef5fe48d40af3725cafa78eb43cc647b405bb6ecfab"><div class="ttname"><a href="enums_8h.html#ac7c2392f800a8be2feb093ef5fe48d40af3725cafa78eb43cc647b405bb6ecfab">type</a></div><div class="ttdeci">@ type</div><div class="ttdef"><b>Definition:</b> <a href="enums_8h_source.html#l00075">enums.h:75</a></div></div>
 <div class="ttc" id="apldata_8h_html_abffc2f52fa6cfeac2e388c6de0ac295b"><div class="ttname"><a href="pldata_8h.html#abffc2f52fa6cfeac2e388c6de0ac295b">add_type</a></div><div class="ttdeci">add_type</div><div class="ttdef"><b>Definition:</b> <a href="pldata_8h_source.html#l00019">pldata.h:19</a></div></div>
-<div class="ttc" id="astructreader__detail_1_1handler_html"><div class="ttname"><a href="structreader__detail_1_1handler.html">reader_detail::handler</a></div><div class="ttdef"><b>Definition:</b> <a href="generic__readers_8h_source.html#l00013">generic_readers.h:13</a></div></div>
+<div class="ttc" id="astructreader__detail_1_1handler_html"><div class="ttname"><a href="structreader__detail_1_1handler.html">reader_detail::handler</a></div><div class="ttdef"><b>Definition:</b> <a href="generic__readers_8h_source.html#l00039">generic_readers.h:39</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="addiction_8cpp_source.html#l00333">addiction_type()</a>, <a class="el" href="json_8cpp_source.html#l01096">JsonIn::get_string()</a>, <a class="el" href="enums_8h_source.html#l00075">type</a>, and <a class="el" href="pldata_8h_source.html#l00050">addiction::type</a>.</p>
 
@@ -229,7 +235,7 @@ template&lt;typename C &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classaddiction__reader.html">addiction_reader</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:03:54 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:21 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

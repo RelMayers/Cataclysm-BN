@@ -34,6 +34,7 @@ var classcata_1_1optional =
     [ "value", "classcata_1_1optional.html#a2e6e3c61a357c60a556956dca61d232e", null ],
     [ "value_or", "classcata_1_1optional.html#ae1bddf9e2a4ccc03349777dcba26aebd", null ],
     [ "data", "classcata_1_1optional.html#a5c62616f2b507da8957159b7fc92d345", null ],
+    [ "dont_use", "classcata_1_1optional.html#a032925047e3aee77899249e010bbb204", null ],
     [ "dummy", "classcata_1_1optional.html#a62b3e1041116aafb8d711f91277b6046", null ],
     [ "full", "classcata_1_1optional.html#a97f51de94f12cc9edab6fe4cf008a124", null ]
 ];

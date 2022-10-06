@@ -58,7 +58,8 @@ var output_8h =
       [ "none", "output_8h.html#a17a93de390fc2504e63ab6dc8cf4753aa334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
       [ "and_", "output_8h.html#a17a93de390fc2504e63ab6dc8cf4753aaa195f8c413b580691c2daa246c1b16ce", null ],
       [ "or_", "output_8h.html#a17a93de390fc2504e63ab6dc8cf4753aacfc049a17faac959998820e7aaaf4329", null ],
-      [ "newline", "output_8h.html#a17a93de390fc2504e63ab6dc8cf4753aa85a422ca8625a1f6325c2e044756b4e3", null ]
+      [ "newline", "output_8h.html#a17a93de390fc2504e63ab6dc8cf4753aa85a422ca8625a1f6325c2e044756b4e3", null ],
+      [ "arrow", "output_8h.html#a17a93de390fc2504e63ab6dc8cf4753aa9022a153e6190f10d9b57aa4232b8aea", null ]
     ] ],
     [ "item_filter_type", "output_8h.html#aa3bbd067f432dba23cd7bdfe75d7c3b4", [
       [ "FIRST", "output_8h.html#aa3bbd067f432dba23cd7bdfe75d7c3b4a2c2624a5059934a947d6e25fe8332ade", null ],

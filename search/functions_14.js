@@ -123,7 +123,7 @@ var searchData=
   ['tidy_5factivity_120',['tidy_activity',['../activity__item__handling_8cpp.html#a16399026a2e42145e96c8a842386ecb5',1,'activity_item_handling.cpp']]],
   ['tidy_5fup_5fdo_5fturn_121',['tidy_up_do_turn',['../namespaceactivity__handlers.html#a5fcf8f030899f270a6e1870dcf36323d',1,'activity_handlers']]],
   ['tie_122',['tie',['../structranged__bash__info.html#a48a0aca90a9492f612f4ca5968a8839e',1,'ranged_bash_info']]],
-  ['tie_5for_5funtie_123',['tie_or_untie',['../namespacemonexamine.html#a48eed9a72d82e4a9258fbfbe7996aaf1',1,'monexamine']]],
+  ['tie_5fpet_123',['tie_pet',['../namespacemonexamine.html#ae76b120af015a9112d4ae33380b28164',1,'monexamine']]],
   ['tie_5ftail_124',['tie_tail',['../structlocalized__comparator.html#a9fd60dc9ebb9e30990152d3c53c930cd',1,'localized_comparator']]],
   ['tile_125',['tile',['../classtile__lookup__res.html#a14c6f1544e9b6d264906b2d89aa8ad57',1,'tile_lookup_res::tile()'],['../structmm__submap.html#a15eb50ad5ff4ac2e94b5f6fcc5438636',1,'mm_submap::tile()']]],
   ['tile_5floading_5freport_126',['tile_loading_report',['../classcata__tiles.html#a8372bbac54613597ebb2b0c728896664',1,'cata_tiles::tile_loading_report(size_t count, TILE_CATEGORY category, const std::string &amp;prefix)'],['../classcata__tiles.html#ae8e670537cbea6f9617872496ee9bb1e',1,'cata_tiles::tile_loading_report(const maptype &amp;tiletypemap, TILE_CATEGORY category, const std::string &amp;prefix=&quot;&quot;)'],['../classcata__tiles.html#a7b5e84c3f268fa0d31d0c2ded21f6900',1,'cata_tiles::tile_loading_report(const arraytype &amp;array, int array_length, TILE_CATEGORY category, const std::string &amp;prefix=&quot;&quot;)']]],

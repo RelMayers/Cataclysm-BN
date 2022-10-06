@@ -5,6 +5,7 @@ var iteminfo__query_8h =
     [ "iteminfo_query_base", "iteminfo__query_8h.html#a6ee7c841c06507c42f03f9c69c190004", null ],
     [ "iteminfo_parts", "iteminfo__query_8h.html#aa68a581556ddf9d10387ba6d9f760cda", [
       [ "BASE_CATEGORY", "iteminfo__query_8h.html#aa68a581556ddf9d10387ba6d9f760cdaa75a792139684dc53e8d06ed67b4c2b05", null ],
+      [ "BASE_MOD_SRC", "iteminfo__query_8h.html#aa68a581556ddf9d10387ba6d9f760cdaa873770393665c1a496127caa092e469c", null ],
       [ "BASE_PRICE", "iteminfo__query_8h.html#aa68a581556ddf9d10387ba6d9f760cdaaf274919abb7f766dc610cb2b52cccea9", null ],
       [ "BASE_BARTER", "iteminfo__query_8h.html#aa68a581556ddf9d10387ba6d9f760cdaa6969097b379c9c7fcb8105d3d51d13a6", null ],
       [ "BASE_VOLUME", "iteminfo__query_8h.html#aa68a581556ddf9d10387ba6d9f760cdaa71cf0f0e6acd28ae9bf66f560dccbb88", null ],

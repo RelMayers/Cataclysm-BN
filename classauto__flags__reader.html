@@ -124,6 +124,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#a757f25520108f740858c0937b609d5c6">operator()</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;member_name, C &amp;member, bool) const</td></tr>
 <tr class="memdesc:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements the reader interface, handles a simple data member.  <a href="classgeneric__typed__reader.html#a757f25520108f740858c0937b609d5c6">More...</a><br /></td></tr>
 <tr class="separator:a757f25520108f740858c0937b609d5c6 inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af67607ae19c511edb56c5d3f17bb9dab inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#af67607ae19c511edb56c5d3f17bb9dab">do_relative</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;) const</td></tr>
+<tr class="separator:af67607ae19c511edb56c5d3f17bb9dab inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cfffc685b127008ffa97f03c10489c inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#ad5cfffc685b127008ffa97f03c10489c">do_relative</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;member) const</td></tr>
+<tr class="separator:ad5cfffc685b127008ffa97f03c10489c inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b83f8ea9e2cc8bbccf5066b0b08aca inherit pub_methods_classgeneric__typed__reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeneric__typed__reader.html#ab4b83f8ea9e2cc8bbccf5066b0b08aca">read_normal</a> (const <a class="el" href="classJsonObject.html">JsonObject</a> &amp;jo, const std::string &amp;name, C &amp;member) const</td></tr>
+<tr class="separator:ab4b83f8ea9e2cc8bbccf5066b0b08aca inherit pub_methods_classgeneric__typed__reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename FlagType = std::string&gt;<br />
@@ -133,11 +139,11 @@ class auto_flags_reader&lt; FlagType &gt;</div><p >Converts the JSON string to s
 <div class="line"><span class="comment">// It also works for containers of simple strings:</span></div>
 <div class="line">std::set&lt;std::string&gt; set2;</div>
 <div class="line"><a class="code hl_function" href="generic__factory_8h.html#a0a177c754c5ba89ac6c543656b0652cc">mandatory</a>( jo, was_loaded, <span class="stringliteral">&quot;set2&quot;</span>, set2, <a class="code hl_class" href="classauto__flags__reader.html">auto_flags_reader&lt;&gt;</a>{} );</div>
-<div class="ttc" id="aclassauto__flags__reader_html"><div class="ttname"><a href="classauto__flags__reader.html">auto_flags_reader</a></div><div class="ttdoc">Converts the JSON string to some type that must be construable from a std::string,...</div><div class="ttdef"><b>Definition:</b> <a href="generic__readers_8h_source.html#l00239">generic_readers.h:240</a></div></div>
+<div class="ttc" id="aclassauto__flags__reader_html"><div class="ttname"><a href="classauto__flags__reader.html">auto_flags_reader</a></div><div class="ttdoc">Converts the JSON string to some type that must be construable from a std::string,...</div><div class="ttdef"><b>Definition:</b> <a href="generic__readers_8h_source.html#l00314">generic_readers.h:315</a></div></div>
 <div class="ttc" id="aclassstring__id_html"><div class="ttname"><a href="classstring__id.html">string_id</a></div><div class="ttdef"><b>Definition:</b> <a href="string__id_8h_source.html#l00196">string_id.h:197</a></div></div>
-<div class="ttc" id="ageneric__factory_8h_html_a0a177c754c5ba89ac6c543656b0652cc"><div class="ttname"><a href="generic__factory_8h.html#a0a177c754c5ba89ac6c543656b0652cc">mandatory</a></div><div class="ttdeci">void mandatory(const JsonObject &amp;jo, const bool was_loaded, const std::string &amp;name, MemberType &amp;member)</div><div class="ttdef"><b>Definition:</b> <a href="generic__factory_8h_source.html#l00586">generic_factory.h:586</a></div></div>
+<div class="ttc" id="ageneric__factory_8h_html_a0a177c754c5ba89ac6c543656b0652cc"><div class="ttname"><a href="generic__factory_8h.html#a0a177c754c5ba89ac6c543656b0652cc">mandatory</a></div><div class="ttdeci">void mandatory(const JsonObject &amp;jo, const bool was_loaded, const std::string &amp;name, MemberType &amp;member)</div><div class="ttdef"><b>Definition:</b> <a href="generic__factory_8h_source.html#l00611">generic_factory.h:611</a></div></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="generic__readers_8h_source.html#l00239">239</a> of file <a class="el" href="generic__readers_8h_source.html">generic_readers.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="generic__readers_8h_source.html#l00314">314</a> of file <a class="el" href="generic__readers_8h_source.html">generic_readers.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab495885eae775135ca13578a0c3a3551" name="ab495885eae775135ca13578a0c3a3551"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab495885eae775135ca13578a0c3a3551">&#9670;&nbsp;</a></span>get_next()</h2>
@@ -165,10 +171,10 @@ template&lt;typename FlagType  = std::string&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="generic__readers_8h_source.html#l00242">242</a> of file <a class="el" href="generic__readers_8h_source.html">generic_readers.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                                               {</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>            <span class="keywordflow">return</span> FlagType( jin.<a class="code hl_function" href="classJsonIn.html#a7af38e6fc060866be2322268b5d3bcb9">get_string</a>() );</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="generic__readers_8h_source.html#l00317">317</a> of file <a class="el" href="generic__readers_8h_source.html">generic_readers.h</a>.</p>
+<div class="fragment"><div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>                                               {</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>            <span class="keywordflow">return</span> FlagType( jin.<a class="code hl_function" href="classJsonIn.html#a7af38e6fc060866be2322268b5d3bcb9">get_string</a>() );</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        }</div>
 <div class="ttc" id="aclassJsonIn_html_a7af38e6fc060866be2322268b5d3bcb9"><div class="ttname"><a href="classJsonIn.html#a7af38e6fc060866be2322268b5d3bcb9">JsonIn::get_string</a></div><div class="ttdeci">std::string get_string()</div><div class="ttdef"><b>Definition:</b> <a href="json_8cpp_source.html#l01096">json.cpp:1096</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json_8cpp_source.html#l01096">JsonIn::get_string()</a>.</p>
@@ -184,7 +190,7 @@ template&lt;typename FlagType  = std::string&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classauto__flags__reader.html">auto_flags_reader</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:03:54 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:21 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

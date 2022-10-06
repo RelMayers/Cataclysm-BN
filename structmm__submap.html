@@ -103,13 +103,9 @@ $(document).ready(function(){initNavTree('structmm__submap.html',''); initResiza
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ae0d6bc4e5be1f906e8df5ae209eec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmm__submap.html#a9ae0d6bc4e5be1f906e8df5ae209eec8">mm_submap</a> ()</td></tr>
 <tr class="separator:a9ae0d6bc4e5be1f906e8df5ae209eec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bfd57d7660ee151a5cf851111c2b416"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmm__submap.html#a3bfd57d7660ee151a5cf851111c2b416">mm_submap</a> (bool make_valid)</td></tr>
-<tr class="separator:a3bfd57d7660ee151a5cf851111c2b416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41dacbac68d38679c338579376079698"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmm__submap.html#a41dacbac68d38679c338579376079698">is_empty</a> () const</td></tr>
 <tr class="memdesc:a41dacbac68d38679c338579376079698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this <a class="el" href="structmm__submap.html" title="Represent a submap-sized chunk of tile memory.">mm_submap</a> is empty.  <a href="structmm__submap.html#a41dacbac68d38679c338579376079698">More...</a><br /></td></tr>
 <tr class="separator:a41dacbac68d38679c338579376079698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacbe698385cdb4a7ccd6854edc4ff8e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmm__submap.html#aacbe698385cdb4a7ccd6854edc4ff8e0">is_valid</a> () const</td></tr>
-<tr class="separator:aacbe698385cdb4a7ccd6854edc4ff8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15eb50ad5ff4ac2e94b5f6fcc5438636"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmemorized__terrain__tile.html">memorized_terrain_tile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmm__submap.html#a15eb50ad5ff4ac2e94b5f6fcc5438636">tile</a> (const <a class="el" href="structpoint.html">point</a> &amp;p) const</td></tr>
 <tr class="separator:a15eb50ad5ff4ac2e94b5f6fcc5438636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2183aa151f21c3f91af5e07bac7239c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmm__submap.html#a2183aa151f21c3f91af5e07bac7239c9">set_tile</a> (const <a class="el" href="structpoint.html">point</a> &amp;p, const <a class="el" href="structmemorized__terrain__tile.html">memorized_terrain_tile</a> &amp;value)</td></tr>
@@ -150,7 +146,7 @@ Friends</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00030">30</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9ae0d6bc4e5be1f906e8df5ae209eec8" name="a9ae0d6bc4e5be1f906e8df5ae209eec8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ae0d6bc4e5be1f906e8df5ae209eec8">&#9670;&nbsp;</a></span>mm_submap() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae0d6bc4e5be1f906e8df5ae209eec8">&#9670;&nbsp;</a></span>mm_submap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,36 +168,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a3bfd57d7660ee151a5cf851111c2b416" name="a3bfd57d7660ee151a5cf851111c2b416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bfd57d7660ee151a5cf851111c2b416">&#9670;&nbsp;</a></span>mm_submap() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mm_submap::mm_submap </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>make_valid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="map__memory_8cpp_source.html#l00048">48</a> of file <a class="el" href="map__memory_8cpp_source.html">map_memory.cpp</a>.</p>
-<div class="fragment"><div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>: <a class="code hl_variable" href="structmm__submap.html#a76de9786c574e233baa449fb325cac40">valid</a>( make_valid ) {}</div>
-<div class="ttc" id="astructmm__submap_html_a76de9786c574e233baa449fb325cac40"><div class="ttname"><a href="structmm__submap.html#a76de9786c574e233baa449fb325cac40">mm_submap::valid</a></div><div class="ttdeci">bool valid</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00089">map_memory.h:89</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -270,8 +236,8 @@ Friends</h2></td></tr>
 <div class="ttc" id="astructmm__elem_html"><div class="ttname"><a href="structmm__elem.html">mm_elem</a></div><div class="ttdef"><b>Definition:</b> <a href="savegame__json_8cpp_source.html#l03192">savegame_json.cpp:3192</a></div></div>
 <div class="ttc" id="astructmm__elem_html_a512a68beded70d974bb85479c56df6d6"><div class="ttname"><a href="structmm__elem.html#a512a68beded70d974bb85479c56df6d6">mm_elem::tile</a></div><div class="ttdeci">memorized_terrain_tile tile</div><div class="ttdef"><b>Definition:</b> <a href="savegame__json_8cpp_source.html#l03193">savegame_json.cpp:3193</a></div></div>
 <div class="ttc" id="astructmm__elem_html_ae88e1f267f3bcc4b3cde4a710973b3e1"><div class="ttname"><a href="structmm__elem.html#ae88e1f267f3bcc4b3cde4a710973b3e1">mm_elem::symbol</a></div><div class="ttdeci">int symbol</div><div class="ttdef"><b>Definition:</b> <a href="savegame__json_8cpp_source.html#l03194">savegame_json.cpp:3194</a></div></div>
-<div class="ttc" id="astructmm__submap_html_a2183aa151f21c3f91af5e07bac7239c9"><div class="ttname"><a href="structmm__submap.html#a2183aa151f21c3f91af5e07bac7239c9">mm_submap::set_tile</a></div><div class="ttdeci">void set_tile(const point &amp;p, const memorized_terrain_tile &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00057">map_memory.h:57</a></div></div>
-<div class="ttc" id="astructmm__submap_html_a2892de7185f3716d5e34c04a715e7af5"><div class="ttname"><a href="structmm__submap.html#a2892de7185f3716d5e34c04a715e7af5">mm_submap::set_symbol</a></div><div class="ttdeci">void set_symbol(const point &amp;p, int value)</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00074">map_memory.h:74</a></div></div>
+<div class="ttc" id="astructmm__submap_html_a2183aa151f21c3f91af5e07bac7239c9"><div class="ttname"><a href="structmm__submap.html#a2183aa151f21c3f91af5e07bac7239c9">mm_submap::set_tile</a></div><div class="ttdeci">void set_tile(const point &amp;p, const memorized_terrain_tile &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00051">map_memory.h:51</a></div></div>
+<div class="ttc" id="astructmm__submap_html_a2892de7185f3716d5e34c04a715e7af5"><div class="ttname"><a href="structmm__submap.html#a2892de7185f3716d5e34c04a715e7af5">mm_submap::set_symbol</a></div><div class="ttdeci">void set_symbol(const point &amp;p, int value)</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00068">map_memory.h:68</a></div></div>
 <div class="ttc" id="astructmm__submap_html_ad0804f8db3bf56ed5ffe3a71b64bc2a1"><div class="ttname"><a href="structmm__submap.html#ad0804f8db3bf56ed5ffe3a71b64bc2a1">mm_submap::default_symbol</a></div><div class="ttdeci">static const int default_symbol</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00034">map_memory.h:34</a></div></div>
 <div class="ttc" id="astructmm__submap_html_adab4d8db426156488246e87e6bd3d487"><div class="ttname"><a href="structmm__submap.html#adab4d8db426156488246e87e6bd3d487">mm_submap::default_tile</a></div><div class="ttdeci">static const memorized_terrain_tile default_tile</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00033">map_memory.h:33</a></div></div>
 <div class="ttc" id="astructpoint_html"><div class="ttname"><a href="structpoint.html">point</a></div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00035">point.h:35</a></div></div>
@@ -306,46 +272,14 @@ Friends</h2></td></tr>
 <p>Whether this <a class="el" href="structmm__submap.html" title="Represent a submap-sized chunk of tile memory.">mm_submap</a> is empty. </p>
 <p >Empty submaps are skipped during saving. </p>
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00040">40</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                              {</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.empty() &amp;&amp; <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.empty();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        }</div>
-<div class="ttc" id="astructmm__submap_html_a11d2b7ff9ccf6f5e3bc407ec4e903650"><div class="ttname"><a href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">mm_submap::symbols</a></div><div class="ttdeci">std::vector&lt; int &gt; symbols</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00088">map_memory.h:88</a></div></div>
-<div class="ttc" id="astructmm__submap_html_afbafe77f848a0c948e59defc86b0fc24"><div class="ttname"><a href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">mm_submap::tiles</a></div><div class="ttdeci">std::vector&lt; memorized_terrain_tile &gt; tiles</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00087">map_memory.h:87</a></div></div>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00039">39</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<div class="fragment"><div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                              {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.empty() &amp;&amp; <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.empty();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        }</div>
+<div class="ttc" id="astructmm__submap_html_a11d2b7ff9ccf6f5e3bc407ec4e903650"><div class="ttname"><a href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">mm_submap::symbols</a></div><div class="ttdeci">std::vector&lt; int &gt; symbols</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00082">map_memory.h:82</a></div></div>
+<div class="ttc" id="astructmm__submap_html_afbafe77f848a0c948e59defc86b0fc24"><div class="ttname"><a href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">mm_submap::tiles</a></div><div class="ttdeci">std::vector&lt; memorized_terrain_tile &gt; tiles</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00081">map_memory.h:81</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00088">symbols</a>, and <a class="el" href="map__memory_8h_source.html#l00087">tiles</a>.</p>
-
-</div>
-</div>
-<a id="aacbe698385cdb4a7ccd6854edc4ff8e0" name="aacbe698385cdb4a7ccd6854edc4ff8e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacbe698385cdb4a7ccd6854edc4ff8e0">&#9670;&nbsp;</a></span>is_valid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mm_submap::is_valid </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00045">45</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                              {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#a76de9786c574e233baa449fb325cac40">valid</a>;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00089">valid</a>.</p>
+<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00082">symbols</a>, and <a class="el" href="map__memory_8h_source.html#l00081">tiles</a>.</p>
 
 </div>
 </div>
@@ -411,8 +345,8 @@ Friends</h2></td></tr>
 <div class="ttc" id="aclassJsonOut_html_a44cdd853d4c6913b37caa9f0131eeff2"><div class="ttname"><a href="classJsonOut.html#a44cdd853d4c6913b37caa9f0131eeff2">JsonOut::end_array</a></div><div class="ttdeci">void end_array()</div><div class="ttdef"><b>Definition:</b> <a href="json_8cpp_source.html#l01961">json.cpp:1961</a></div></div>
 <div class="ttc" id="aclassJsonOut_html_a4550e2036b904c4d4a90e440dd41c684"><div class="ttname"><a href="classJsonOut.html#a4550e2036b904c4d4a90e440dd41c684">JsonOut::start_array</a></div><div class="ttdeci">void start_array(bool wrap=false)</div><div class="ttdef"><b>Definition:</b> <a href="json_8cpp_source.html#l01950">json.cpp:1950</a></div></div>
 <div class="ttc" id="aclassJsonOut_html_a4b8c8e50e3be57e737ae971ecf2c3fd5"><div class="ttname"><a href="classJsonOut.html#a4b8c8e50e3be57e737ae971ecf2c3fd5">JsonOut::write</a></div><div class="ttdeci">void write(T val)</div><div class="ttdef"><b>Definition:</b> <a href="json_8h_source.html#l00620">json.h:620</a></div></div>
-<div class="ttc" id="astructmm__submap_html_a15eb50ad5ff4ac2e94b5f6fcc5438636"><div class="ttname"><a href="structmm__submap.html#a15eb50ad5ff4ac2e94b5f6fcc5438636">mm_submap::tile</a></div><div class="ttdeci">const memorized_terrain_tile &amp; tile(const point &amp;p) const</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00049">map_memory.h:49</a></div></div>
-<div class="ttc" id="astructmm__submap_html_a8a84a54e1baf390af1e86ccaaa61a901"><div class="ttname"><a href="structmm__submap.html#a8a84a54e1baf390af1e86ccaaa61a901">mm_submap::symbol</a></div><div class="ttdeci">int symbol(const point &amp;p) const</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00066">map_memory.h:66</a></div></div>
+<div class="ttc" id="astructmm__submap_html_a15eb50ad5ff4ac2e94b5f6fcc5438636"><div class="ttname"><a href="structmm__submap.html#a15eb50ad5ff4ac2e94b5f6fcc5438636">mm_submap::tile</a></div><div class="ttdeci">const memorized_terrain_tile &amp; tile(const point &amp;p) const</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00043">map_memory.h:43</a></div></div>
+<div class="ttc" id="astructmm__submap_html_a8a84a54e1baf390af1e86ccaaa61a901"><div class="ttname"><a href="structmm__submap.html#a8a84a54e1baf390af1e86ccaaa61a901">mm_submap::symbol</a></div><div class="ttdeci">int symbol(const point &amp;p) const</div><div class="ttdef"><b>Definition:</b> <a href="map__memory_8h_source.html#l00060">map_memory.h:60</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="json_8cpp_source.html#l01961">JsonOut::end_array()</a>, <a class="el" href="achievement_8h.html#a4c2771ccaad822c94aee3786288bb112a98bd1c45684cf587ac2347a92dd7bb51">last</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="game__constants_8h_source.html#l00037">SEEY</a>, <a class="el" href="json_8cpp_source.html#l01950">JsonOut::start_array()</a>, <a class="el" href="character_8cpp_source.html#l00514">Character::symbol()</a>, and <a class="el" href="json_8h_source.html#l00620">JsonOut::write()</a>.</p>
 
@@ -452,19 +386,19 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00074">74</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                                                            {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.empty() ) {</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                <span class="comment">// call &#39;reserve&#39; first to force allocation of exact size</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.reserve( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a> );</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.resize( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a>, <a class="code hl_variable" href="structmm__submap.html#ad0804f8db3bf56ed5ffe3a71b64bc2a1">default_symbol</a> );</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            }</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>] = value;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00068">68</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<div class="fragment"><div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                                                            {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.empty() ) {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                <span class="comment">// call &#39;reserve&#39; first to force allocation of exact size</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.reserve( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a> );</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.resize( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a>, <a class="code hl_variable" href="structmm__submap.html#ad0804f8db3bf56ed5ffe3a71b64bc2a1">default_symbol</a> );</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>] = value;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        }</div>
 <div class="ttc" id="astructpoint_html_a9a82ca9504acabb1e30569f89c805471"><div class="ttname"><a href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00039">point.h:39</a></div></div>
 <div class="ttc" id="astructpoint_html_ad679b07fb69d55f5ad454d0f1f2891d5"><div class="ttname"><a href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">point::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00038">point.h:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00034">default_symbol</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="game__constants_8h_source.html#l00037">SEEY</a>, <a class="el" href="map__memory_8h_source.html#l00088">symbols</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
+<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00034">default_symbol</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="game__constants_8h_source.html#l00037">SEEY</a>, <a class="el" href="map__memory_8h_source.html#l00082">symbols</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
 
 </div>
 </div>
@@ -502,17 +436,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00057">57</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                                                                                    {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.empty() ) {</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                <span class="comment">// call &#39;reserve&#39; first to force allocation of exact size</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.reserve( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a> );</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.resize( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a>, <a class="code hl_variable" href="structmm__submap.html#adab4d8db426156488246e87e6bd3d487">default_tile</a> );</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            }</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>] = value;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00051">51</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<div class="fragment"><div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                                                                                    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.empty() ) {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                <span class="comment">// call &#39;reserve&#39; first to force allocation of exact size</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.reserve( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a> );</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.resize( <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> * <a class="code hl_variable" href="game__constants_8h.html#a4cfa35de359af17f7bc6c2a424339eb5">SEEY</a>, <a class="code hl_variable" href="structmm__submap.html#adab4d8db426156488246e87e6bd3d487">default_tile</a> );</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>] = value;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00033">default_tile</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="game__constants_8h_source.html#l00037">SEEY</a>, <a class="el" href="map__memory_8h_source.html#l00087">tiles</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
+<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00033">default_tile</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="game__constants_8h_source.html#l00037">SEEY</a>, <a class="el" href="map__memory_8h_source.html#l00081">tiles</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
 
 </div>
 </div>
@@ -540,16 +474,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00066">66</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                                                  {</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.empty() ) {</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#ad0804f8db3bf56ed5ffe3a71b64bc2a1">default_symbol</a>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>];</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            }</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00060">60</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<div class="fragment"><div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                                                  {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>.empty() ) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#ad0804f8db3bf56ed5ffe3a71b64bc2a1">default_symbol</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#a11d2b7ff9ccf6f5e3bc407ec4e903650">symbols</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>];</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00034">default_symbol</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="map__memory_8h_source.html#l00088">symbols</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
+<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00034">default_symbol</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="map__memory_8h_source.html#l00082">symbols</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
 
 </div>
 </div>
@@ -577,16 +511,16 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00049">49</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-<div class="fragment"><div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                                                                          {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.empty() ) {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#adab4d8db426156488246e87e6bd3d487">default_tile</a>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>];</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00043">43</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<div class="fragment"><div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                                                                          {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>.empty() ) {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#adab4d8db426156488246e87e6bd3d487">default_tile</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="structmm__submap.html#afbafe77f848a0c948e59defc86b0fc24">tiles</a>[p.<a class="code hl_variable" href="structpoint.html#a9a82ca9504acabb1e30569f89c805471">y</a> * <a class="code hl_variable" href="game__constants_8h.html#a39fd8a829e3dc412646663066dbdb54c">SEEX</a> + p.<a class="code hl_variable" href="structpoint.html#ad679b07fb69d55f5ad454d0f1f2891d5">x</a>];</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00033">default_tile</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="map__memory_8h_source.html#l00087">tiles</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
+<p class="reference">References <a class="el" href="map__memory_8h_source.html#l00033">default_tile</a>, <a class="el" href="game__constants_8h_source.html#l00036">SEEX</a>, <a class="el" href="map__memory_8h_source.html#l00081">tiles</a>, <a class="el" href="point_8h_source.html#l00038">point::x</a>, and <a class="el" href="point_8h_source.html#l00039">point::y</a>.</p>
 
 </div>
 </div>
@@ -638,7 +572,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00034">34</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00109">map_memory::clear_memorized_tile()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03244">deserialize()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8h_source.html#l00074">set_symbol()</a>, and <a class="el" href="map__memory_8h_source.html#l00066">symbol()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00117">map_memory::clear_memorized_tile()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03244">deserialize()</a>, <a class="el" href="map__memory_8cpp_source.html#l00080">map_memory::has_memory_for_autodrive()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8h_source.html#l00068">set_symbol()</a>, and <a class="el" href="map__memory_8h_source.html#l00060">symbol()</a>.</p>
 
 </div>
 </div>
@@ -664,7 +598,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00033">33</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="vehicle__autodrive_8cpp_source.html#l00642">vehicle::autodrive_controller::check_drivable()</a>, <a class="el" href="map__memory_8cpp_source.html#l00109">map_memory::clear_memorized_tile()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03244">deserialize()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8h_source.html#l00057">set_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00209">temp_remove_open_air()</a>, and <a class="el" href="map__memory_8h_source.html#l00049">tile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map__memory_8cpp_source.html#l00117">map_memory::clear_memorized_tile()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03244">deserialize()</a>, <a class="el" href="map__memory_8cpp_source.html#l00080">map_memory::has_memory_for_autodrive()</a>, <a class="el" href="savegame__json_8cpp_source.html#l03318">map_memory::load_legacy()</a>, <a class="el" href="map__memory_8h_source.html#l00051">set_tile()</a>, <a class="el" href="map__memory_8cpp_source.html#l00214">temp_remove_open_air()</a>, and <a class="el" href="map__memory_8h_source.html#l00043">tile()</a>.</p>
 
 </div>
 </div>
@@ -688,9 +622,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00088">88</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00082">82</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="map__memory_8h_source.html#l00040">is_empty()</a>, <a class="el" href="map__memory_8h_source.html#l00074">set_symbol()</a>, and <a class="el" href="map__memory_8h_source.html#l00066">symbol()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map__memory_8h_source.html#l00039">is_empty()</a>, <a class="el" href="map__memory_8h_source.html#l00068">set_symbol()</a>, and <a class="el" href="map__memory_8h_source.html#l00060">symbol()</a>.</p>
 
 </div>
 </div>
@@ -714,9 +648,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00087">87</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00081">81</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="map__memory_8h_source.html#l00040">is_empty()</a>, <a class="el" href="map__memory_8h_source.html#l00057">set_tile()</a>, and <a class="el" href="map__memory_8h_source.html#l00049">tile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="map__memory_8h_source.html#l00039">is_empty()</a>, <a class="el" href="map__memory_8h_source.html#l00051">set_tile()</a>, and <a class="el" href="map__memory_8h_source.html#l00043">tile()</a>.</p>
 
 </div>
 </div>
@@ -740,9 +674,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00089">89</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="map__memory_8h_source.html#l00045">is_valid()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="map__memory_8h_source.html#l00083">83</a> of file <a class="el" href="map__memory_8h_source.html">map_memory.h</a>.</p>
 
 </div>
 </div>
@@ -757,7 +689,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structmm__submap.html">mm_submap</a></li>
-    <li class="footer">Generated on Sun Sep 18 2022 19:04:13 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 6 2022 15:59:34 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

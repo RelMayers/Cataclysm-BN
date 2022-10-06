@@ -15,6 +15,7 @@ var monmove_8cpp =
     [ "effect_dragging", "monmove_8cpp.html#a692b3825de327022efb956655bf5e441", null ],
     [ "effect_grabbed", "monmove_8cpp.html#ae326c5e4da7f23bc429d04d215dd7c9d", null ],
     [ "effect_harnessed", "monmove_8cpp.html#a7697771dc47ecaeff36785ff20c9aa33", null ],
+    [ "effect_led_by_leash", "monmove_8cpp.html#ad5fa326832c0a774d6a775e605f27788", null ],
     [ "effect_no_sight", "monmove_8cpp.html#af079f6d5681dabcbc1c4ee804c0ba556", null ],
     [ "effect_operating", "monmove_8cpp.html#ab8dd6142a7131d3af944e532002ac9e3", null ],
     [ "effect_pacified", "monmove_8cpp.html#a79654cfc6f07462199ec3f5da9e49c83", null ],
