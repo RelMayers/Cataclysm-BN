@@ -103,6 +103,7 @@ static const std::string flag_NO_UNLOAD( "NO_UNLOAD" );
 static const std::string flag_NUTRIENT_OVERRIDE( "NUTRIENT_OVERRIDE" );
 static const std::string flag_UNCRAFT_LIQUIDS_CONTAINED( "UNCRAFT_LIQUIDS_CONTAINED" );
 static const std::string flag_VARSIZE( "VARSIZE" );
+static const std::string flag_ROT_RESET( "ROT_RESET" );
 
 class basecamp;
 
@@ -1023,7 +1024,8 @@ void complete_craft( player &p, item &craft, const bench_location & )
     const recipe &making = craft.get_making();
     const int batch_size = craft.charges;
     std::list<item> &used = craft.components;
-    const double relative_rot = craft.get_relative_rot();
+    const int rot_reset = static_cast<int>(!making.has_flag("ROT_RESET"));
+    const double relative_rot = craft.get_relative_rot() * rot_reset;
 
     // Set up the new item, and assign an inventory letter if available
     std::vector<item> newits = making.create_results( batch_size );
